@@ -1,0 +1,201 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    background-color: #ddda1b;
+    margin: 0 auto;
+    padding: 1em;
+}
+h1,h2 {
+    color: #BB2649;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.hover{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    cursor: auto;
+
+}
+h2{
+    cursor: pointer;
+}
+h3{
+    text-align: center;
+}
+p{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+	padding-left: 0;
+	text-align: center;
+}
+li {
+    display: inline;
+}
+#img{
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 1em;
+    width: 700px;
+    background-color: rgb(100, 173, 236);
+}
+#workoutQuestion{
+    margin: 0 auto;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 1em;
+    width: 700px;
+    background-color: rgb(100, 173, 236);
+}
+
+.stopwatch-container {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.time-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+.controls button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.controls button:focus {
+    outline: none;
+}
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 1em;
+    width: 700px;
+    cursor: pointer;
+    flex-wrap: wrap; 
+    position: relative;
+}
+.imageDescription {
+    margin-right: 20px; 
+}
+section{
+    margin: 0 auto;
+    background-color: rgb(100, 173, 236);
+    border: 3px solid #000000;
+    border-radius: 8px;
+    padding: 1em;
+    width: 700px;
+}
+
+.hidden {
+	display: none;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.bmi-section {
+    margin: 0 auto;
+    border: 3px solid #000000;
+    padding: 1em;
+    width: 700px;
+    text-align: center;
+    background-color: rgb(100, 173, 236);
+}
+
+.bmi-description p {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.bmi-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #BB2649;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.bmi-button:hover {
+    background-color: #900;
+}
+
+.bmi-section-title {
+    text-align: center;
+    margin-top: 30px;
+    color: #BB2649;
+}
+
+footer {
+    background-color: #fffb00;
+    padding: 20px;
+    text-align: center;
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid #0f1112;
+    margin: 20px 0;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .icons {
+    margin-top: 20px;
+}
+
+footer .icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .icons img {
+    width: 30px;
+    height: 30px;
+}
+
+footer .icons a:hover img {
+    filter: brightness(0.8);
+}
+
+
+

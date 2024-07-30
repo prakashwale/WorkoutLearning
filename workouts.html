@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Workouts</title>
+    <link rel="stylesheet"  href="workouts.css">
+    <link rel="icon" href="./img/Fit4LifeCoverPage.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <h1>Unleash Your Potential and Transform Your Body</h1>
+        <h3 class="bmi-section-title">Calculate Your BMI</h3>
+        <section class="bmi-section">
+            <div class="bmi-description">
+                <p>
+                    Understanding your BMI can help you track your fitness journey. Use our simple calculator to get your
+                    BMI and see how your current weight aligns with your health goals.
+                </p>
+                <a href="bmi.html" class="bmi-button">Go to BMI Calculator</a>
+            </div>
+        </section>
+        <br>
+        <section class="stopwatch-container">
+            <h1>Workout Timer</h1>
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds">00</span>
+            </div>
+            <div class="controls">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+            <p>Take 2mins break for every rep and 4mins break for workout Switch</p>
+        </section>  
+        <br>
+        <h2 class="hover">Workouts</h2>
+        <div>
+        <ul id="img">
+            <li><img src="./img/LowerBodyWorkoutCover.webp" height="240" width="340" alt="LowerBody Workout" id="./img/Workout_For_LowerBody.jpg"></li>
+            <li><img src="./img/UpperBodyWorkoutCover.png" height="240" width="340" alt="upperbody Workout" id="./img/Workout_for_UpperBody.jpg"></li>
+        </ul>
+        </div>
+        <br>
+        <div>
+        <h2 class="hover">Hover to learn about the benefits of Workout</h2>
+        <ul id="workoutQuestion">
+            <li><h2>What are the benefits of regular exercise?</h2>
+                <p class="hidden">Regular exercise improves cardiovascular health, strengthens muscles, boosts mental health, and helps in weight management.</p>
+            </li><br>
+            <li><h2>How often should I work out?</h2>
+                <p class="hidden">It is recommended to engage in at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity each week.</p>
+            </li><br>
+            <li><h2>What is the best time of day to exercise?</h2>
+                <p class="hidden">The best time to exercise is when it fits into your schedule consistently. Some people prefer morning workouts, while others prefer evenings.</p>
+            </li><br>
+            <li><h2>Do I need to warm up before a workout?</h2>
+                <p class="hidden">Yes, warming up increases blood flow to your muscles, reduces the risk of injury, and prepares your body for more strenuous activity.</p>
+            </li><br>
+            <li><h2>How can I stay motivated to work out regularly?</h2>
+                <p class="hidden">Setting realistic goals, tracking progress, varying your workouts, and finding a workout buddy can help maintain motivation.</p>
+            </li>
+        </ul>  
+    </div>
+    <br>
+    <h2 class="hover">Hover on the image to learn benefits</h2>
+    <h3>Cardio</h3>
+    <section>
+    <div class="description">
+        <img class="imageDescription" src="./img/cardio.jpeg" height="400" width="250" alt="Cardio">
+        <p class="hidden">
+            <strong>Benefits of Cardio Workouts</strong><br>
+            <strong>the Heart:</strong> Regular cardio exercises help strengthen your heart, making it more efficient at pumping blood throughout your body.<br>
+            <strong>Reduces Risk of Heart Disease:</strong> Engaging in cardio workouts can significantly reduce the risk of heart disease, hypertension, and other cardiovascular issues.<br>
+            <strong>Lowers Blood Pressure:</strong> Cardio helps maintain healthy blood pressure levels, reducing strain on your heart.<br>
+        </p>
+    </div>
+    </section>
+    <h3>Strength</h3>
+    <section>
+    <div class="description">
+        <img class="imageDescription" src="./img/Strength.jpeg" height="400" width="250" alt="Strength">
+        <p class="hidden">
+            <strong>Benefits of Strength Workouts</strong><br>
+            <strong>Builds Lean Muscle:</strong> Strength training helps increase muscle mass, giving your body a toned and defined appearance. This lean muscle mass also boosts your metabolism, enabling your body to burn more calories even at rest.<br>
+            <strong>Prevents Muscle Loss:</strong> As we age, muscle loss becomes a concern. Regular strength training combats this by maintaining and even building muscle mass, ensuring strength and vitality throughout life.<br>
+            <strong>Increases Bone Density:</strong> Engaging in strength training can increase bone density and strength, reducing the risk of osteoporosis and fractures.<br>
+        </p>
+    </div>
+    </section>
+    <h3>Yoga</h3>
+    <section>
+        <div class="description">
+            <img class="imageDescription" src="./img/Yoga.jpeg" height="400" width="250" alt="Yoga">
+            <p class="hidden">
+                <strong>Benefits of Yoga</strong><br>
+                <strong>Enhances Flexibility:</strong> Regular practice of yoga poses stretches and lengthens muscles, increasing flexibility and range of motion. This improvement in flexibility helps reduce muscle tension and the risk of injuries.<br>
+                <strong>Boosts Balance:</strong> Yoga improves your balance and coordination by strengthening stabilizer muscles, enhancing your ability to perform daily activities and athletic movements with grace and precision.<br>
+                <strong>Builds Muscle Strength:</strong> Yoga poses require you to support your body weight in various ways, building muscle strength and endurance. This strength contributes to better posture and reduces the risk of injuries.<br>
+            </p>
+        </div>
+    </section>
+    <h3>Cycling</h3>
+    <section>
+        <div class="description">
+            <img class="imageDescription" src="./img/Cycling.jpeg" height="400" width="250" alt="Cycling">
+            <p class="hidden">
+                <strong>Benefits of Cycling Workouts</strong><br>
+                <strong>Boosts Heart Health:</strong>  Cycling is a great cardiovascular workout that strengthens your heart, reduces blood pressure, and lowers the risk of heart disease.<br>
+                <strong>Enhances Circulation:</strong> Regular cycling improves blood circulation, ensuring oxygen and nutrients are delivered efficiently throughout your body.<br>
+                <strong>Reduces Risk of Stroke:</strong> By maintaining healthy blood vessels and improving circulation, cycling can help lower the risk of strokes and other cardiovascular issues.<br>
+            </p>
+        </div>
+    </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="clockScript.js"></script>
+    <script src="script.Js"></script>
+</body>
+<footer>
+    <hr />
+    <a href="contact.html">Contact Us</a> |
+    <a href="about.html">About Us</a> | 
+    <a href="index.html">Sign Out</a>
+    <div class="icons">
+        <a href="#" ><img src="./img/icons8-instagram-30.png" alt="Instagram Icon"></a>
+        <a href="#" ><img src="./img/icons8-facebook-30.png" alt="Facebook Icon"></a>
+        <a href="#" ><img src="./img/icons8-twitter-30.png" alt="Twitter Icon"></a>
+    </div>
+    <p>&copy; "Prakashraj Kalidoss/8989426" 2024</p>
+</footer>
+</html>
