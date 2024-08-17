@@ -88,6 +88,7 @@ li {
 .controls button:focus {
     outline: none;
 }
+
 .description{
     display: flex;
     align-items: center;
@@ -97,7 +98,7 @@ li {
     width: 700px;
     cursor: pointer;
     flex-wrap: wrap; 
-    position: relative;
+    position: absolute;
 }
 .imageDescription {
     margin-right: 20px; 
@@ -119,6 +120,7 @@ section{
     display: flex;
     justify-content: center;
 }
+
 .bmi-section {
     margin: 0 auto;
     border: 3px solid #000000;
